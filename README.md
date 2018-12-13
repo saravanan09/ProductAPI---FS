@@ -36,7 +36,7 @@ The folder structure is as follows,
 - features
     - step_definitions
            - productAPI_steps.js - Contains the step definition for teh corresponding featuere file
-    - checkout.feature - Contains the cucumber test scenario in gerkins
+    - productAPI.feature - Contains the cucumber test scenario in gerkins
 - libs
     - handlers
            - productAPITest.js - Contains API test functions/methods.
