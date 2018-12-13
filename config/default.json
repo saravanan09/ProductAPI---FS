@@ -1,0 +1,134 @@
+{
+  "authenticate": {
+    "username": "ZRPDETN3R-YJERGUWOG95G",
+    "password": "0QzCOcCGS4mgUWveTjmmTQ"
+  },
+  "productUpdate": {
+    "products": [
+      {
+        "product": "sarav-12112018",
+        "display": {
+          "en": "REST Assured Jar for REST API's"
+        },
+        "description": {
+          "summary": {
+            "en": "Open Source API Testing"
+          },
+          "action": {
+            "en": "Monthly Subscription"
+          },
+          "full": {
+            "en": "REST API Automation"
+          }
+        },
+        "fulfillment": {
+          "instructions": {
+            "en": "Your Order Is Processed. Proceed downloading the file.",
+            "es": "Su pedido es procesado. Continúa descargando el archivo."
+          }
+        },
+        "fulfillments": [
+          {
+            "type": "file",
+            "url": "http://central.maven.org/maven2/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar",
+            "display": "rest-assured-2.9.0.jar",
+            "applicability": "ALWAYS",
+            "behavior": "CURRENT"
+          }
+        ],
+        "image": "https://steemitimages.com/DQmWFf63XnbB1w3CVWaQLT5NEh3oWTVVKhCM9n46gkzX7pM/restful-api-image.png",
+        "format": "digital",
+        "sku": "Thanks for downloading!!!",
+        "attributes": {
+          "key1": "Sachin",
+          "key2": "Tendulkar"
+        },
+        "pricing": {
+          "trial": 2,
+          "interval": "month",
+          "intervalLength": 1,
+          "quantityBehavior": "allow",
+          "quantityDefault": 1,
+          "price": {
+            "USD": 10.95,
+            "EUR": 10.99
+          },
+          "quantityDiscounts": {
+            "30": {
+              "USD": 25.00,
+              "EUR": 15
+            }
+          },
+          "discountReason": {
+            "en": "The Reason"
+          },
+          "discountDuration": 1
+        }
+      }
+    ]
+  },
+  "productReset": {
+    "products": [
+      {
+        "product": "sarav-12112018",
+        "display": {
+          "en": "REST Assured Jar"
+        },
+        "description": {
+          "summary": {
+            "en": "API Testing"
+          },
+          "action": {
+            "en": "Monthly Subscription"
+          },
+          "full": {
+            "en": "REST API Automation"
+          }
+        },
+        "fulfillment": {
+          "instructions": {
+            "en": "Your Order Is Processed. Proceed downloading the file.",
+            "es": "Su pedido es procesado. Continúa descargando el archivo."
+          }
+        },
+        "fulfillments": [
+          {
+            "type": "file",
+            "url": "http://central.maven.org/maven2/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar",
+            "display": "rest-assured-2.9.0.jar",
+            "applicability": "ALWAYS",
+            "behavior": "CURRENT"
+          }
+        ],
+        "image": "https://steemitimages.com/DQmWFf63XnbB1w3CVWaQLT5NEh3oWTVVKhCM9n46gkzX7pM/restful-api-image.png",
+        "format": "digital",
+        "sku": "Thanks for downloading!!!",
+        "attributes": {
+          "key1": "Sachin",
+          "key2": "Tendulkar"
+        },
+        "pricing": {
+          "trial": 2,
+          "interval": "month",
+          "intervalLength": 1,
+          "quantityBehavior": "allow",
+          "quantityDefault": 1,
+          "price": {
+            "USD": 14.95,
+            "EUR": 10.99
+          },
+          "quantityDiscounts": {
+            "30": {
+              "USD": 25.00,
+              "EUR": 15
+            }
+          },
+          "discountReason": {
+            "en": "The Reason"
+          },
+          "discountDuration": 1
+        }
+      }
+    ]
+  }
+}

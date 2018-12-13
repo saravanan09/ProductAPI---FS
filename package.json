@@ -1,0 +1,22 @@
+{
+  "name": "product API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert-soft": "^1.0.0",
+    "chai": "^3.5.0",
+    "config": "^1.29.4",
+    "cucumber": "^4.0.0",
+    "cucumber-html-reporter": "^4.0.2",
+    "cucumber-junit": "^1.7.1",
+    "https": "^1.0.0",
+    "mocha": "^3.5.3",
+    "request-promise": "^4.2.2"
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Product API - Foot Spring",
+    "line": 1,
+    "id": "product-api---foot-spring",
+    "tags": [],
+    "uri": "features\\productAPI.feature",
+    "elements": [
+      {
+        "id": "product-api---foot-spring;to-validate-get-/products/{products_id}",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "To validate GET /products/{products_id}",
+        "tags": [
+          {
+            "name": "@GET_products_after_update",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Spring\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "valid fields and making a GET request to products \"sarav-12112018\" then it should return a \"200\" and a response body of updated product details",
+            "match": {
+              "location": "Spring\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
